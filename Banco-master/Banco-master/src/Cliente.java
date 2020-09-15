@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Cliente {
-
+    
     String id;
     String nombre;
     ArrayList <Cuenta> producto = new ArrayList();
@@ -17,5 +17,5 @@ public class Cliente {
     public void agregarCuenta(Cuenta cuenta){
         producto.add(cuenta);
     }
-
+ //pruebita comitt
 }
